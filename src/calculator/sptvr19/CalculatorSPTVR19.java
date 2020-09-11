@@ -11,12 +11,13 @@ package calculator.sptvr19;
  */
 public class CalculatorSPTVR19 {
 
-    /**
+ /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.printIn("-----Калькулятор-----")
-        // TODO code application logic here
+        App app = new App();
+        app.run();
     }
     
 }
+// Class - шаблон хранилища данных
